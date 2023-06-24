@@ -1,0 +1,98 @@
+/* - - - BLOCO DO CABEÇALHO - - - */
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1{
+    font-size: 2em;
+    margin: 0.67em 0;
+    text-align: center;
+}
+
+.header .foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.header .title {
+    font-family: 'Neue Machina';
+    text-align: center;
+}
+/* - - - FIM DO BLOCO DO CABEÇALHO - - - */
+
+
+/* - - - BLOCO DE INFORMAÇÕES - - - */
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 100%;
+}
+
+.informacoes p {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin: .5rem;
+
+    font-size: .9rem;
+  
+ 
+
+}
+
+.informacoes > div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: .3rem;
+
+
+  }
+  
+  .informacoes .material-symbols-outlined {
+    font-size: 30px;
+   
+
+  }
+
+/* - - - FIM DO BLOCO DE INFORMAÇÕES - - - */
+
+
+/* - - - ICONES - - - */
+.person{
+    display: flex;
+    align-items: baseline;
+   
+}
+
+.share{
+    display: flex;
+    align-items: baseline;
+}
+
+.contact{
+    display: flex;
+    align-items: baseline;
+}
+
+.alternate{
+    display: flex;
+    align-items: baseline;
+}
+
+.icon span{
+    display: flex;
+    margin-right: 10px;
+  
+  }
+
+  .material-symbols-outlined{
+    color: rgb(174, 108, 235);
+  }
+/* - - - FIM DOS ICONES - - -*/
+  
